@@ -17,6 +17,7 @@
 	--primary: #1181E6;
 	--secondary: #D245F7;
 	--tertiary: #15166C;
+	--accent1: #81A3F9;
 	--transition: 0.2s ease-in-out;
 }
 
@@ -34,6 +35,7 @@ body {
 	background-color: #ffffff;
 	color: #1E1E1E;
 	padding: 0;
+	@apply text-2xl leading-normal;
 }
 
 ::selection {
@@ -44,7 +46,7 @@ body {
 
 .header,
 .contained {
-	@apply px-8 mx-auto max-w-[1600px];
+	@apply px-12 mx-auto max-w-[1600px];
 }
 
 /* Hero, Header */
@@ -106,6 +108,13 @@ nav a:not(.btn):hover::after {
 	transform: scaleX(1);
 }
 
+/* Footer */
+
+footer {
+	background-color: var(--accent1);
+	width: 100%;
+}
+
 /* Headings */
 
 h2 {
@@ -142,7 +151,8 @@ h3 {
 }
 
 .small-divider,
-.smaller-divider {
+.smaller-divider,
+.left-divider {
 	display: block;
 	@apply rounded-full h-1 mx-0 my-2 border-0;
 }
@@ -157,6 +167,12 @@ h3 {
 	background: rgb(214, 70, 251);
 	background: linear-gradient(115deg, rgba(129, 163, 249, 1) 0%, rgba(129, 163, 249, 1) 100%);
 	@apply mx-auto my-8;
+}
+
+.left-divider {
+	width: 150px;
+	background: rgb(214, 70, 251);
+	background: linear-gradient(115deg, rgba(129, 163, 249, 1) 0%, rgba(129, 163, 249, 1) 100%);
 }
 
 /* Scrollbar */
