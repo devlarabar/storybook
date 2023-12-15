@@ -4,7 +4,7 @@ import HeroContent from '@/components/ui/hero/HeroContent'
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section className="hero flex flex-col">
             <HeroStripe />
             <Header />
             <HeroContent />

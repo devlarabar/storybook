@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = () => {
     return (
-        <form data-netlify="true" className="contact-form flex flex-col gap-3 flex-1">
+        <form data-netlify="true" className="contact-form flex flex-col gap-3 flex-1 w-full">
             <label><span>Name</span>
                 <input type="text" name="name" />
             </label>

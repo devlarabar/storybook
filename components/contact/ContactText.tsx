@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactText = () => {
     return (
-        <div className="flex-1 flex flex-col gap-10">
+        <div className="flex-1 flex flex-col gap-6 md:gap-10 max-md:text-lg">
             <h2 className="text-left">Get Started</h2>
             <hr className="left-divider" />
             <p>
