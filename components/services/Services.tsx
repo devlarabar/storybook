@@ -2,7 +2,7 @@ import Service from "@/components/services/Service"
 
 const Services = () => {
     return (
-        <section className="contained w-full flex flex-col items-center gap-3">
+        <section className="contained w-full flex flex-col items-center gap-3" data-aos="fade">
             <h2>Services</h2>
             <hr className="smaller-divider mx-auto" />
             <section className="flex justify-between items-center gap-10 w-full max-w-6xl mx-auto">
